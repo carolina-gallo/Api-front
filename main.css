@@ -1,0 +1,24 @@
+.tipodospuntos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cadaPersonaje {
+    width: 19rem;
+    height: 50rem;
+}
+
+.personajeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagen {
+    width: 100%;
+    height: 23rem;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 2rem;
+}
